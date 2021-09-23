@@ -1,2 +1,2 @@
-# ra-events-state-filter [![Build status](https://ci.appveyor.com/api/projects/status/hmnlvnqv9p3ida5g?svg=true)](https://ci.appveyor.com/project/barsich/ra-events-state-filter)
+# ra-events-state-filter [![Build status](https://ci.appveyor.com/api/projects/status/ii4ajw45k8wt0oab?svg=true)](https://ci.appveyor.com/project/barsich/ra-events-state-filter)
 [GithubPages](https://barsich.github.io/ra-events-state-filter/)
