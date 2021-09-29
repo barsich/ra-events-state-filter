@@ -1,7 +1,7 @@
-import PortfolioItemModel from './PortfolioItemModel/PortfolioItemModel';
+import PortfolioItemModel from './PortfolioItemModel';
 import { v4 as uuidv4 } from 'uuid';
 import './Portfolio.css';
-import Toolbar from './Toolbar/Toolbar';
+import Toolbar from './Toolbar';
 import { useState } from 'react';
 
 export default function Portfolio(props) {
@@ -29,7 +29,7 @@ export default function Portfolio(props) {
 
     setActiveFilter(filter);
 
-    if (activeFilter === 'All') {
+    if (filter === 'All') {
       setActiveImages(imageItems);
     } else {
       setActiveImages(imageItems.filter(image => image.props.image.category === filter));
