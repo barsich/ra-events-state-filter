@@ -1,4 +1,4 @@
-import './Toolbar.css';
+import './styles.css';
 
 export default function Toolbar(props) {
   const { filters, selected, onSelectFilter } = props;

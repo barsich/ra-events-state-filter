@@ -1,6 +1,6 @@
 import PortfolioItemModel from './PortfolioItemModel';
 import { v4 as uuidv4 } from 'uuid';
-import './Portfolio.css';
+import './styles.css';
 import Toolbar from './Toolbar';
 import { useState } from 'react';
 
